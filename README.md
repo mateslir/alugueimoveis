@@ -1,14 +1,16 @@
 <h1>Aluguel de Imoveis</h1>
     <p>O projeto tem o proposito de fazer o CLiente alugar seu imovel e tambem poder alugar um imovel de um outro cliente, podendo avaliar e reservar eles.</p>
     <li>Projeto feito pelo Mateus</li>
-     <h2>Ferramentas Utilizados</h2>
+     <h2>Ferramentas Utilizadas</h2>
     <ul>
         <li><strong>Java JDK 17</strong>: Linguagem de programação principal.</li>
         <li><strong>IntelliJ IDEA</strong>: IDE para desenvolvimento.</li>
         <li><strong>PostgreSQL</strong>: Banco de dados relacional.</li>
         <li><strong>Maven</strong>: Ferramenta de gerenciamento de dependências.</li>
         <li><strong>Spring Boot</strong>: Framework para criação de aplicativos Java.</li>
-        <li><strong>Postman</strong>: Utilizado para.</li>
+        <li><strong>Postman</strong>: Utilizado para teste de API.</li>
+        <li><strong>Swagger</strong>: Utilizado para documentação de API.</li>
+        
     </ul>
     <h2>Configuração do Banco de dados</h2>
     <ul>
@@ -69,7 +71,7 @@
     </code></pre>
     
     
-<h2>Endpoints Disponíveis</h2>
+<h2>Endpoints disponíveis para teste no Postman</h2>
     <h3>Cliente</h3>
     <ul>
         <li><code>POST /api/cliente</code>: Cria um novo Cliente.</li>
