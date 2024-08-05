@@ -9,44 +9,7 @@
         <li><strong>Maven</strong>: Ferramenta de gerenciamento de dependências.</li>
         <li><strong>Spring Boot</strong>: Framework para criação de aplicativos Java.</li>
     </ul>
-<h2>Endpoints Disponíveis</h2>
-    <h3>Cliente</h3>
-    <ul>
-        <li><code>POST /api/cliente</code>: Cria um novo Cliente.</li>
-        <li><code>GET /api/cliente/{id}</code>: Retorna um cliente específico pelo ID.</li>
-    </ul>
-    <h3>Imovel</h3>
-        <li><code>POST /imoveis</code>: Cria um novo imovel.</li>
-        <li><code>GET /imoveis</code>: Retorna todos os imovel .</li>
-        <li><code>GET /imoveis/{estado}</code>: Retorna um imovel específico pelo estado.</li>
-        <li><code>PUT /imoveis/{id}</code>: Atualiza um imovel existente.</li>
-        <li><code>DELETE/imoveis/{id}</code>: Remove um imovel.</li>
-    </ul>
-    <h3>Reserva</h3>
-        <li><code>POST /reservas</code>: Cria um novo imovel.</li>
-        <li><code>GET /reservas/{id}</code>: Retorna uma reserva especifica pelo ID.</li>
-        <li><code>PUT /reservas{id}</code>: Atualiza uma reserva existente.</li>
-        <li><code>DELETE/reservas/{id}</code>: Remove uma reserva.</li>
-    </ul>
-    <h3>Avaliação</h3>
-        <li><code>POST /avaliacoes</code>: Cria uma avaliação.</li>
-        <li><code>GET /avaliacoes</code>: Gera todas as avaliações .</li>
-        <li><code>GET /avaliacoes/imovel/{idImovel}</code>: Retorna as avaliações de um imovel específico</li>
-        <li><code>PUT /avaliacoes/{id}</code>: Atualiza uma avaliação existente.</li>
-        <li><code>DELETE/avaliacoes/{id}</code>: Remove uma avaliaçcao.</li>
-    </ul>
-    <h2>Configuração do Banco de dados</h2>
-    <ul>
-                <li>Certifique-se de que o PostgreSQL esteja em execução.</li>
-                <li>Crie um banco de dados para o projeto.</li>
-                <li>Atualize as credenciais do banco de dados no arquivo <code>application.yaml</code>:
-                    <pre><code>    url: jdbc:postgresql://localhost:5432/imovelalguel
-    username: postgres
-    password: 1505</code></pre>
-                </li>
-            </ul>
-        </li>
-<h3><strong>Código do banco pra utilizar</strong></h3>
+    <h3><strong>Código do banco pra utilizar</strong></h3>
 <li>Cliente</li>
     <pre><code> CREATE TABLE cliente (
     id INTEGER PRIMARY KEY,
@@ -94,3 +57,41 @@
     </code></pre>
     
     
+<h2>Endpoints Disponíveis</h2>
+    <h3>Cliente</h3>
+    <ul>
+        <li><code>POST /api/cliente</code>: Cria um novo Cliente.</li>
+        <li><code>GET /api/cliente/{id}</code>: Retorna um cliente específico pelo ID.</li>
+    </ul>
+    <h3>Imovel</h3>
+        <li><code>POST /imoveis</code>: Cria um novo imovel.</li>
+        <li><code>GET /imoveis</code>: Retorna todos os imovel .</li>
+        <li><code>GET /imoveis/{estado}</code>: Retorna um imovel específico pelo estado.</li>
+        <li><code>PUT /imoveis/{id}</code>: Atualiza um imovel existente.</li>
+        <li><code>DELETE/imoveis/{id}</code>: Remove um imovel.</li>
+    </ul>
+    <h3>Reserva</h3>
+        <li><code>POST /reservas</code>: Cria um novo imovel.</li>
+        <li><code>GET /reservas/{id}</code>: Retorna uma reserva especifica pelo ID.</li>
+        <li><code>PUT /reservas{id}</code>: Atualiza uma reserva existente.</li>
+        <li><code>DELETE/reservas/{id}</code>: Remove uma reserva.</li>
+    </ul>
+    <h3>Avaliação</h3>
+        <li><code>POST /avaliacoes</code>: Cria uma avaliação.</li>
+        <li><code>GET /avaliacoes</code>: Gera todas as avaliações .</li>
+        <li><code>GET /avaliacoes/imovel/{idImovel}</code>: Retorna as avaliações de um imovel específico</li>
+        <li><code>PUT /avaliacoes/{id}</code>: Atualiza uma avaliação existente.</li>
+        <li><code>DELETE/avaliacoes/{id}</code>: Remove uma avaliaçcao.</li>
+    </ul>
+    <h2>Configuração do Banco de dados</h2>
+    <ul>
+                <li>Certifique-se de que o PostgreSQL esteja em execução.</li>
+                <li>Crie um banco de dados para o projeto.</li>
+                <li>Atualize as credenciais do banco de dados no arquivo <code>application.yaml</code>:
+                    <pre><code>    url: jdbc:postgresql://localhost:5432/imovelalguel
+    username: postgres
+    password: 1505</code></pre>
+                </li>
+            </ul>
+        </li>
+
