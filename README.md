@@ -1,7 +1,7 @@
 <h1>Aluguel de Imoveis</h1>
     <p>O projeto tem o proposito de fazer o CLiente alugar seu imovel e tambem poder alugar um imovel de um outro cliente, podendo avaliar e reservar eles.</p>
     <li>Projeto feito pelo Mateus</li>
-     <h2>Tecnologias Utilizadas</h2>
+     <h2>Tecnologias Utilizad</h2>
     <ul>
         <li><strong>Java JDK 17</strong>: Linguagem de programação principal.</li>
         <li><strong>IntelliJ IDEA</strong>: IDE para desenvolvimento.</li>
@@ -35,6 +35,16 @@
         <li><code>PUT /avaliacoes/{id}</code>: Atualiza uma avaliação existente.</li>
         <li><code>DELETE/avaliacoes/{id}</code>: Remove uma avaliaçcao.</li>
     </ul>
-    
+    <h2>Configuração do Banco de dados</h2>
+    <ul>
+                <li>Certifique-se de que o PostgreSQL esteja em execução.</li>
+                <li>Crie um banco de dados para o projeto.</li>
+                <li>Atualize as credenciais do banco de dados no arquivo <code>application.yaml</code>:
+                    <pre><code>    url: jdbc:postgresql://localhost:5432/imovelalguel
+    username: postgres
+    password: 1505</code></pre>
+                </li>
+            </ul>
+        </li>
     
     
