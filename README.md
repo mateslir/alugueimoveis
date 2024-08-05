@@ -46,5 +46,51 @@
                 </li>
             </ul>
         </li>
+<h3><strong>Código do banco pra utilizar</strong></h3>
+<li>Cliente</li>
+    <pre><code> CREATE TABLE cliente (
+    id INTEGER PRIMARY KEY,
+    nome VARCHAR NOT NULL,
+    email VARCHAR NOT NULL,
+    senha VARCHAR NOT NULL
+);
+    </code></pre>
+    <li>Imovel</li>
+    <pre><code>CREATE TABLE imovel (
+    id INTEGER PRIMARY KEY,
+    tipoimovel VARCHAR NOT NULL,
+    cepimovel VARCHAR NOT NULL,
+    enderecoimovel VARCHAR NOT NULL,
+    estadoimovel VARCHAR NOT NULL,
+    cidadeimovel VARCHAR NOT NULL,
+    bairroimovel VARCHAR NOT NULL,
+    areaimovel NUMERIC NOT NULL,
+    tituloimovel VARCHAR NOT NULL,
+    descricaoimovel TEXT,
+    preco NUMERIC NOT NULL,
+    clienteid INTEGER NOT NULL
+    );
+    </code></pre>
+    <li>Reserva</li>
+    <pre><code>CREATE TABLE reserva (
+    id INTEGER PRIMARY KEY,
+    idcliente INTEGER NOT NULL,
+    idimovel INTEGER NOT NULL,
+    datainicio VARCHAR NOT NULL,
+    datafim VARCHAR NOT NULL,
+    status VARCHAR NOT NULL,
+    FOREIGN KEY (idcliente) REFERENCES cliente(id),
+    FOREIGN KEY (idimovel) REFERENCES imovel(id)
+);
+    </code></pre>
+    <li>Avaliação</li>
+    <pre><code>CREATE TABLE avaliacao (
+    id SERIAL PRIMARY KEY,
+    idimovel INTEGER NOT NULL,
+    idcliente INTEGER NOT NULL,
+    nota INTEGER NOT NULL,
+    comentarios TEXT
+);
+    </code></pre>
     
     
