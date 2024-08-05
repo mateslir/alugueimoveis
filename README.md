@@ -1,5 +1,5 @@
 <h1>Aluguel de Imoveis</h1>
-    <p>O projeto tem o proposito de fazer o CLiente alugar seu imovel e tambem poder alugar um imovel de um outro cliente, podendo avaliar e reservar eles.</p>
+    <p>O projeto de aluguel de imoveis tem o proposito de fazer o cliente cadastrar um imovel para alugar e tambem poder alugar um imovel de um outro cliente, podendo avaliar e reservar eles.</p>
     <li>Projeto feito pelo Mateus</li>
      <h2>Ferramentas Utilizadas</h2>
     <ul>
@@ -10,7 +10,6 @@
         <li><strong>Spring Boot</strong>: Framework para criação de aplicativos Java.</li>
         <li><strong>Postman</strong>: Utilizado para teste de API.</li>
         <li><strong>Swagger</strong>: Utilizado para documentação de API.</li>
-        
     </ul>
     <h2>Configuração do Banco de dados</h2>
     <ul>
