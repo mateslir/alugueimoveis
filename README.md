@@ -1,6 +1,6 @@
 <h1>Aluguel de Imoveis</h1>
-<li>Projeto feito pelo Mateus</li>
     <p>O projeto tem o proposito de fazer o CLiente alugar seu imovel e tambem poder alugar um imovel de um outro cliente, podendo avaliar e reservar eles.</p>
+    <li>Projeto feito pelo Mateus</li>
      <h2>Tecnologias Utilizadas</h2>
     <ul>
         <li><strong>Java JDK 17</strong>: Linguagem de programação principal.</li>
