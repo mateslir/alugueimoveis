@@ -21,8 +21,7 @@
                 </li>
             </ul>
         </li>
-
-    <h3><strong>Código do banco pra utilizar</strong></h3>
+  <h3><strong>Código do banco pra utilizar</strong></h3>
 <li>Cliente</li>
     <pre><code> CREATE TABLE cliente (
     id INTEGER PRIMARY KEY,
