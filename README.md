@@ -1,4 +1,3 @@
-# alugueimoveis
 <h1>Aluguel de Imoveis</h1>
 <h2>Feito por Mateus</h2>
     <p>O projeto tem o proposito de fazer o CLiente alugar seu imovel e tambem poder alugar um imovel de um outro cliente, podendo avaliar e reservar eles.</p>
