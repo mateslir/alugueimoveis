@@ -1,5 +1,5 @@
 <h1>Aluguel de Imoveis</h1>
-<li>Feito por Mateus</li>
+<li>Projeto feito pelo Mateus</li>
     <p>O projeto tem o proposito de fazer o CLiente alugar seu imovel e tambem poder alugar um imovel de um outro cliente, podendo avaliar e reservar eles.</p>
      <h2>Tecnologias Utilizadas</h2>
     <ul>
