@@ -9,6 +9,18 @@
         <li><strong>Maven</strong>: Ferramenta de gerenciamento de dependências.</li>
         <li><strong>Spring Boot</strong>: Framework para criação de aplicativos Java.</li>
     </ul>
+    <h2>Configuração do Banco de dados</h2>
+    <ul>
+                <li>Certifique-se de que o PostgreSQL esteja em execução.</li>
+                <li>Crie um banco de dados para o projeto.</li>
+                <li>Atualize as credenciais do banco de dados no arquivo <code>application.yaml</code>:
+                    <pre><code>    url: jdbc:postgresql://localhost:5432/imovelalguel
+    username: postgres
+    password: 1505</code></pre>
+                </li>
+            </ul>
+        </li>
+
     <h3><strong>Código do banco pra utilizar</strong></h3>
 <li>Cliente</li>
     <pre><code> CREATE TABLE cliente (
@@ -83,15 +95,4 @@
         <li><code>PUT /avaliacoes/{id}</code>: Atualiza uma avaliação existente.</li>
         <li><code>DELETE/avaliacoes/{id}</code>: Remove uma avaliaçcao.</li>
     </ul>
-    <h2>Configuração do Banco de dados</h2>
-    <ul>
-                <li>Certifique-se de que o PostgreSQL esteja em execução.</li>
-                <li>Crie um banco de dados para o projeto.</li>
-                <li>Atualize as credenciais do banco de dados no arquivo <code>application.yaml</code>:
-                    <pre><code>    url: jdbc:postgresql://localhost:5432/imovelalguel
-    username: postgres
-    password: 1505</code></pre>
-                </li>
-            </ul>
-        </li>
-
+    
