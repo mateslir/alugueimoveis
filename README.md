@@ -77,6 +77,7 @@
         <li><code>POST /api/cliente</code>: Cria um novo Cliente.</li>
         <li><code>GET /api/cliente/{id}</code>: Retorna um cliente específico pelo ID.</li>
     </ul>
+     <ul>
     <h3>Imovel</h3>
         <li><code>POST /imoveis</code>: Cria um novo imovel.</li>
         <li><code>GET /imoveis</code>: Retorna todos os imovel .</li>
@@ -84,12 +85,14 @@
         <li><code>PUT /imoveis/{id}</code>: Atualiza um imovel existente.</li>
         <li><code>DELETE/imoveis/{id}</code>: Remove um imovel.</li>
     </ul>
+     <ul>
     <h3>Reserva</h3>
         <li><code>POST /reservas</code>: Cria um novo imovel.</li>
         <li><code>GET /reservas/{id}</code>: Retorna uma reserva especifica pelo ID.</li>
         <li><code>PUT /reservas{id}</code>: Atualiza uma reserva existente.</li>
         <li><code>DELETE/reservas/{id}</code>: Remove uma reserva.</li>
     </ul>
+     <ul>
     <h3>Avaliação</h3>
         <li><code>POST /avaliacoes</code>: Cria uma avaliação.</li>
         <li><code>GET /avaliacoes</code>: Gera todas as avaliações .</li>
